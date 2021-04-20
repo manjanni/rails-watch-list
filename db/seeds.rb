@@ -11,6 +11,12 @@
 # Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
 # Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
 
-List.create(name: "Drama")
-List.create(name: "All time favourites")
-List.create(name: "Girl Power")
+# List.create(name: "Drama")
+# List.create(name: "All time favourites")
+# List.create(name: "Girl Power")
+
+Bookmark.create(comment: "Recommended by Tom", movie_id: 3, list_id: 2)
+Bookmark.create(comment: "Superhero movie revisited in 2020", movie_id: 1, list_id: 3)
+Bookmark.create(comment: "Spielbergs's masterly Oscar-winning drama", movie_id: 2, list_id: 2)
+Bookmark.create(comment: "2020 release", movie_id: 5, list_id: 1)
+Bookmark.create(comment: "Based on Stephen King's 1996 novel", movie_id: 4, list_id: 3)
