@@ -6,8 +6,11 @@
 
 <% @list.movies.each do |movie| %>
   <% bookmark = Bookmark.find_by(list: @list, movie: movie) %>
-    <%= movie.title %>
-    <%= movie.rating %>
-    <%= movie.overview %>
-    <%= bookmark.comment %>
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title"><%= movie.title %></h3>
+        <p class="card-text"><%= movie.overview %></p>
+        <footer><%= bookmark.comment %></footer>
+      </div>
+    </div>
 <% end %>
