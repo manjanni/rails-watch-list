@@ -6,17 +6,20 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Movie.create(title: "Wonder Woman 1984", overview: "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s", poster_url: "https://image.tmdb.org/t/p/original/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg", rating: 6.9)
-Movie.create(title: "The Shawshank Redemption", overview: "Framed in the 1940s for double murder, upstanding banker Andy Dufresne begins a new life at the Shawshank prison", poster_url: "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", rating: 8.7)
-Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
-Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
+# Movie.create(title: "Wonder Woman 1984", overview: "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s", poster_url: "https://image.tmdb.org/t/p/original/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg", rating: 6.9)
+# Movie.create(title: "The Shawshank Redemption", overview: "Framed in the 1940s for double murder, upstanding banker Andy Dufresne begins a new life at the Shawshank prison", poster_url: "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", rating: 8.7)
+# Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
+# Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
 
-List.create(name: "Drama")
-List.create(name: "All time favourites")
-List.create(name: "Girl Power")
 
-Bookmark.create(comment: "Recommended by Tom", movie_id: 3, list_id: 2)
-Bookmark.create(comment: "Superhero movie revisited in 2020", movie_id: 1, list_id: 3)
-Bookmark.create(comment: "Spielbergs's masterly Oscar-winning drama", movie_id: 2, list_id: 2)
-Bookmark.create(comment: "2020 release", movie_id: 5, list_id: 1)
-Bookmark.create(comment: "Based on Stephen King's 1996 novel", movie_id: 4, list_id: 3)
+# List.create(name: "Drama")
+# List.create(name: "All time favourites")
+# List.create(name: "Girl Power")
+
+# Bookmark.create(comment: "Recommended by Tom", movie_id: 3, list_id: 2)
+# Bookmark.create(comment: "Superhero movie revisited in 2020", movie_id: 1, list_id: 3)
+# Bookmark.create(comment: "Spielbergs's masterly Oscar-winning drama", movie_id: 2, list_id: 2)
+# Bookmark.create(comment: "2020 release", movie_id: 5, list_id: 1)
+# Bookmark.create(comment: "Based on Stephen King's 1996 novel", movie_id: 4, list_id: 3)
+
+Movie.create(title: "Zombieland", overview: "Columbus has made a habit of running from what scares him. Tallahassee doesn't have fears. If he did, he'd kick their ever-living ass. In a world overrun by zombies, these two are perfectly evolved survivors. But now, they're about to stare down the most terrifying prospect of all: each other.", poster_url: "https://www.themoviedb.org/t/p/w1280/dUkAmAyPVqubSBNRjRqCgHggZcK.jpg", rating: 7.3)
