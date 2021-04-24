@@ -5,8 +5,9 @@
 </div>
 
 <div>
-  <%= cl_image_tag("hrdogh1rbre3s9bkzovo",
-      width: 400, height: 300, crop: :fill) %>
+  <% if @list.photo.attached? %>
+    <%= cl_image_tag @list.photo.key, height: 300, width: 400, crop: :fill %>
+  <% end %>
 </div>
 
 <% @list.movies.each do |movie| %>
