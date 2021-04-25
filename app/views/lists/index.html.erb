@@ -1,11 +1,21 @@
-<h1>My lists</h1>
-
-<% @lists.each do |list| %>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"><%= link_to "#{list.name}", list_path(list) %></h5>
-    </div>
+<div class="banner mb-4 d-flex">
+  <div class="text-left">
+    <h1>create your movie list</h1>
   </div>
-<% end %>
+</div>
 
-<%= link_to "Create a movie list", new_list_path, class: 'btn btn-flat' %>
+
+<div class="container py-5">
+  <div class="align-items-center">
+    <div class="mb-0">My lists</div>
+  </div>
+  <div class="row">
+    <% @lists.each do |list| %>
+      <div class="card co-12 colsm-6 col-md-4">
+        <%= link_to "#{list.name}", list_path(list) %>
+      </div>
+    <% end %>
+    <%= link_to "Create a movie list", new_list_path, class: 'btn btn-flat' %>
+  </div>
+</div>
+

@@ -1,2 +1,9 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.banner {
+  background-image: asset_url("movie_banner.jpg");
+  background-size: cover;
+  height: 280px;
+  // background-color: pink;
+}
